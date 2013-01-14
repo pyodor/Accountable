@@ -1,9 +1,9 @@
 
 
-DROP TABLE IF EXISTS `accountable`;
+DROP TABLE IF EXISTS `accountables`;
 
 
-CREATE TABLE `accountable` (
+CREATE TABLE `accountables` (
 	`id` int(11) NOT NULL AUTO_INCREMENT,
 	`resource` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
 	`actor_id` int(11) NOT NULL,
